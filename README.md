@@ -4,8 +4,8 @@
 
 The **Annotated Reddit Conversation Corpus (ARCC)** is a collection of Reddit conversations, **segmented and annotated** for both:
 
-1. **Speech Acts** – capturing the communicative function of each segment (e.g., assertion, question, assessment, recommendation, expressive).  
-2. **Functional Dependence Relations (FDRs)** – representing how segments relate to one another in the conversation, encoding dependencies such as agreement, disagreement, clarification, or elaboration.
+1. **Speech Acts** – capturing the communicative function of each segment (e.g., assertion, question, assessment, advise, expressive).  
+2. **Functional Dependence Relations (FDRs)** – representing how segments relate to one another in the conversation, encoding dependencies such as agreement, disagreement, answer, or request for clarification.
 
 The corpus is designed for the **study of subjectivity in online discourse**. Specifically, it allows researchers to investigate how **subjective expressions** at the speech act level influence conversational dynamics, as captured by FDRs.
 
@@ -18,7 +18,7 @@ The corpus is designed for the **study of subjectivity in online discourse**. Sp
 
 The anonymized version included in this repository (`corpus/ARCC_anonymized.csv`) contains the following fields:
 
-| Column              | Description |
+| Column             | Description |
 |--------------------|-------------|
 | `Index`            | Row index |
 | `subreddit`        | Subreddit name |
@@ -36,10 +36,10 @@ The anonymized version included in this repository (`corpus/ARCC_anonymized.csv`
 | `SA`               | Speech Act label |
 | `SUB-SA`           | Subjectivity label (5-degree scale) |
 | `FDR`              | Functional Dependence Relation |
-| `RR_intra`         | Intra-segment rhetorical relation (optional) |
+| `RR_intra`         | Intra-segment rhetorical relation (pilot) |
 | `parent_SA`        | Parent segment’s speech act |
-| `Biased`           | Biased marker (if any) |
-| `offset_valid`     | Whether offsets are valid (True/False) |
+| `Biased`           | Biased marker (for biased questions) |
+
 
 > **Note:** The corpus does **not include original comment text**. To reconstruct text, users must provide their own Reddit API credentials.
 
@@ -54,4 +54,3 @@ To reconstruct the actual text of the segments:
 ```python
 CLIENT_ID = "YOUR_CLIENT_ID"
 CLIENT_SECRET = "YOUR_CLIENT_SECRET"
-USER_AGENT = "YOUR_USER_AGENT"
