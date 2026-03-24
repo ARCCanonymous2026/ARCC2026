@@ -14,7 +14,7 @@ REDDIT_USER_AGENT = "ARCC-reconstruction"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_PATH = os.path.join(BASE_DIR, "corpus", "ARCC_anonymized.csv")
 OUTPUT_PATH = os.path.join(BASE_DIR, "corpus", "ARCC_reconstructed.csv")
-
+ASSESS_OUTPUT_PATH = os.path.join(BASE_DIR, "corpus", "ARCC_reconstructed_only_ASSESSESMENT.csv")
 
 # 3️ INITIALIZE REDDIT API
 reddit = praw.Reddit(
@@ -87,3 +87,10 @@ df.to_csv(OUTPUT_PATH, index=False)
 
 print("\nReconstruction completed.")
 print(f"Output saved to: {OUTPUT_PATH}")
+
+# 8️ Create filtered file with only ASSESS rows
+df_assess = df[df["SA"] == "ASSESS"]
+
+df_assess.to_csv(ASSESS_OUTPUT_PATH, index=False)
+
+print(f"ASSESSEMENT-only file saved to: {ASSESS_OUTPUT_PATH}")
