@@ -263,7 +263,7 @@ Index,subreddit,num_comments,speaker_id,conversation_id,comment_id,reply_to_comm
 363,prochoice,,S48,1ieclck,mabpoyh,ma9iir3,mabpoyh_00,ma9iir3_00,ma9iir3,3.0,0,9,ASSERT,,DIS,,ADV,0.0
 364,prochoice,,S48,1ieclck,mabpoyh,ma9iir3,mabpoyh_01,mabpoyh_00,mabpoyh,3.0,9,44,ASSERT,,CONT_IN,CNTR,ASSERT,0.0
 365,prochoice,,S48,1ieclck,mabpoyh,ma9iir3,mabpoyh_02,mabpoyh_01,mabpoyh,3.0,47,69,ASSESS,VAL,CONT_IN,CONT,ASSERT,0.0
-366,prochoice,,S39,1ieclck,mad1jzu,mabpoyh,mad1jzu_00,mabpoyh_00,mabpoyh,4.0,0,8,ASSESS,VAL,AGR,,ASSERT,0.0
+366,prochoice,,S39,1ieclck,mad1jzu,mabpoyh,mad1jzu_00,mabpoyh_02,mabpoyh,4.0,0,8,ASSESS,VAL,AGR,,ASSERT,0.0
 367,prochoice,,S39,1ieclck,mad1jzu,mabpoyh,mad1jzu_01,mad1jzu_00,mad1jzu,4.0,10,84,ASSESS,VAL,CONT_IN,CONT,ASSESS,0.0
 368,prochoice,,S39,1ieclck,mad1jzu,mabpoyh,mad1jzu_02,mad1jzu_01,mad1jzu,4.0,84,235,ASSESS,VAL,CONT_IN,,ASSESS,0.0
 369,prochoice,,S39,1ieclck,mad1jzu,mabpoyh,mad1jzu_03,mad1jzu_02,mad1jzu,4.0,237,569,ASSERT,,CONT_IN,CONT,ASSESS,0.0
@@ -1374,7 +1374,7 @@ Index,subreddit,num_comments,speaker_id,conversation_id,comment_id,reply_to_comm
 1555,todayilearned,14.0,S257,1iiuejv,1iiuejv,,1iiuejv_01,1iiuejv_00,1iiuejv,0.0,94,297,ASSERT,,CONT_IN,CONT,ASSERT,0.0
 1556,todayilearned,,S258,1iiuejv,mb974xb,1iiuejv,mb974xb_00,1iiuejv_00,1iiuejv,1.0,0,18,ASSESS,TST,CONT_EX,,ASSERT,0.0
 1557,todayilearned,,S258,1iiuejv,mb974xb,1iiuejv,mb974xb_01,mb974xb_00,mb974xb,1.0,19,43,ASSERT,,CONT_IN,CONT,ASSESS,0.0
-1558,todayilearned,,S258,1iiuejv,mb974xb,1iiuejv,mb974xb_02,mb974xb_00,mb974xb,1.0,45,119,ASSESS,WOR,CONT_IN,CONT,ASSESS,0.0
+1558,todayilearned,,S258,1iiuejv,mb974xb,1iiuejv,mb974xb_02,mb974xb_00,mb974xb,1.0,45,119,ASSESS,V/W,CONT_IN,CONT,ASSESS,0.0
 1559,todayilearned,,S258,1iiuejv,mb974xb,1iiuejv,mb974xb_03,mb974xb_01,mb974xb,1.0,120,193,ASSERT,,CONT_IN,CONT,ASSERT,0.0
 1560,todayilearned,,S258,1iiuejv,mb974xb,1iiuejv,mb974xb_04,mb974xb_02,mb974xb,1.0,194,304,ASSERT,,CONT_IN,CNTR,ASSESS,0.0
 1561,todayilearned,,S259,1iiuejv,mb9gkpy,mb974xb,mb9gkpy_00,mb974xb_01,mb974xb,2.0,0,168,ADV,,CONT_EX,,ASSERT,0.0
@@ -1878,7 +1878,7 @@ Index,subreddit,num_comments,speaker_id,conversation_id,comment_id,reply_to_comm
 2059,Askpolitics,,S369,1iul6qk,me2yjpl,me2xbce,me2yjpl_02,me2xbce_09,me2xbce,2.0,215,241,ASSESS,TST,AGR,,ASSESS,0.0
 2060,Askpolitics,,S369,1iul6qk,me2yjpl,me2xbce,me2yjpl_03,me2yjpl_02,me2yjpl,2.0,241,251,EXPR,,CONT_IN,CONT,ASSESS,0.0
 2061,Askpolitics,,S370,1iul6qk,me6newr,me2yjpl,me6newr_00,me2yjpl_01,me2yjpl,3.0,0,66,ASSESS,V/W,DIS,,ASSERT,0.0
-2062,Askpolitics,,S371,1iul6qk,me9ox0m,me2yjpl,me9ox0m_00,me2xbce_00,me2xbce,3.0,0,24,ASSESS,TST,CONT_EX,,ASSESS,0.0
+2062,Askpolitics,,S371,1iul6qk,me9ox0m,me2yjpl,me9ox0m_00,me2yjpl_01,me2yjpl,3.0,0,24,ASSESS,TST,CONT_EX,,ASSESS,0.0
 2063,Askpolitics,,S371,1iul6qk,me9ox0m,me2yjpl,me9ox0m_01,me9ox0m_00,me9ox0m,3.0,25,238,ASSESS,V/W,CONT_IN,CNTR,ASSESS,0.0
 2064,Askpolitics,,S371,1iul6qk,me9ox0m,me2yjpl,me9ox0m_02,me9ox0m_01,me9ox0m,3.0,239,257,ASSESS,V/W,CONT_IN,CONT,ASSESS,0.0
 2065,Askpolitics,,S371,1iul6qk,me9ox0m,me2yjpl,me9ox0m_03,me9ox0m_02,me9ox0m,3.0,258,307,ASSERT,,CONT_IN,CONT,ASSESS,0.0
